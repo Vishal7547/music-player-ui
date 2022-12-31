@@ -1,0 +1,46 @@
+@media screen and (max-width:940px){
+    .right-part{
+        display: none;
+    }
+    .left-part{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width:555px){
+.section-first{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+.at55px{
+    width: 100%;
+}
+
+}
+@media screen and (max-width:375px){
+.button-section{
+    display: flex;
+    flex-direction: column;
+}
+.button-section div{
+    width: 100%;
+    text-align: center;
+
+}
+.image-log{
+    width:60px;
+    height:60px;
+}
+.add{
+    height:60px;
+    width:60px;
+  
+    float:right;
+    position: relative;
+}
+.playlist{
+    margin-top: -15px !important;
+}
+}

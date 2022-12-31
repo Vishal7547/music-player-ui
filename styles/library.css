@@ -1,0 +1,155 @@
+/* left part */
+/* section-1 */
+.section-first{
+  background-color: rgb(14, 14, 90);
+ outline:1px solid blue;
+
+}
+.cold-play-image{
+     width:100%;
+     height:100%;
+}
+.cold-play-image img{
+    width:100%;
+    height:100%;
+    opacity:0.5;
+}
+.cold-play-text-outter-div{
+    align-items: center;
+}
+.cold-play-text h1{
+color:white;
+}
+.cold-play-text i,p{
+    color:white;
+    opacity: 0.5;
+    line-height: 18px;
+
+
+    
+}
+
+.button-section div button{
+color:white;
+width:60%;
+background-image: linear-gradient(to left,blue,purple);
+display: inline-block;
+}
+.button-section div span{
+    color:white;
+    display: inline-block;
+}
+#track{
+    color:white !important;
+}
+/* section-2 */
+.outer-div{
+    display: flex;
+}
+.image-log{
+    width:110px;
+    height:110px;
+}
+
+.image-log img{
+    height:100%;
+    width:100%;
+    border-radius: 7px;
+}
+.number-pos,.name-pos{
+    align-self: center;
+}
+.number-pos span{
+    color:white;
+    opacity:0.5;
+    font-size:large;
+}
+.name-pos .mirage{
+color:white;
+font-size: larger;
+}
+.name-pos .mirage-bot{
+    color:white;
+    font-size: large;
+    opacity: 0.5;
+    }
+
+    .playlist{
+        list-style: none;
+        text-align: end;
+        position: absolute;
+        top:40%;
+        right:2px;
+       
+    }
+    .playlist li{
+       display: inline-block;
+      
+      
+    }
+    .playlist li i{
+        color:white;
+        opacity: 0.5;
+        margin-left: 10px;
+    }
+    .playlist li i:hover{
+        color:purple;
+    }
+    .add{
+        height:110px;
+        width:110px;
+      
+        float:right;
+        position: relative;
+    }
+    /* right-part */
+/* part-1 */
+    .right-part{
+        position: fixed;
+       
+        left:73%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    
+    .right-part::-webkit-scrollbar{
+        display: none;
+    }
+/* part-2 */
+
+.side-song-1{
+    height: 80px;
+    
+   position: relative;
+}
+.side-song-1 div{
+    margin-left: 5px;
+}
+.side-song-1 img{
+    height: 55px;
+    width: 70px;
+    border-radius:5px;
+}
+
+.side-song-1 div span{
+    position: relative;
+    top:10%;
+    
+}
+.side-song-1 div .name-1{
+color:white;
+font-size:small;
+margin-right: 10px;
+display: block;
+
+}
+.side-song-1 div .name-2{
+    color:rgb(59, 12, 104);
+    font-size:1rem;
+    line-height: 1px;
+    display: block;
+    margin-top: 10px;
+    }
+    .side-song-1 div .number{
+color: rgb(59, 12, 104);
+    }

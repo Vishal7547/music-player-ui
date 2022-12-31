@@ -1,0 +1,391 @@
+body{
+  background-image: linear-gradient(to right,rgba(26, 3, 80, 0.952),rgb(15, 15, 17));
+}
+/* navbar css */
+
+.logo img{
+    height:45px;
+    width:45px;
+    border-radius: 50%;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo span{
+    color:white;
+    margin:0px 20px !important;
+    font-weight:300;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.horizontal-list{
+    list-style: none !important;
+    text-align: end;
+}
+.horizontal-list li {
+    display: inline-block !important;
+    margin: 0px 10px;
+}
+.horizontal-list li input[type=text]{
+    border-radius: 4px;
+    color:white !important;
+    font-size:small;
+    font-weight: 500;
+    background-color: rgb(14, 14, 90);
+    width:14rem;
+    border: none;
+    outline: none;
+    height: 30px;
+    background-image: url('../images/search-icon-removebg-preview.png');
+    background-size:contain;
+    box-sizing: border-box;
+   background-position: 2px 4px;
+   background-repeat: no-repeat;
+   text-align: end;
+}
+::placeholder{
+    color:grey;
+    font-size: large;
+    padding-right:10px;
+}
+.horizontal-list li a i{
+    color:white;
+}
+
+.horizontal-list li a img{
+    width:45px;
+    width: 45px;
+}
+
+/* left-section  */
+/* section-1 */
+.section-1 div{
+width:250px;
+height:180px;
+}
+.section-1 div img{
+    width: 98%;
+    height: 90%;
+    transition: 0.001s linear 0.1s;
+}
+.section-1 div img:hover{
+   transform: scale(1.1);
+}
+/* section-2 */
+
+
+.player{
+    width:100px !important; 
+    height:100px; 
+    position: relative;
+}
+.player img{
+    width:100% !important; 
+    height:100%;
+}
+.player i{
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    display: none;
+}
+.player:hover .play{
+   display:block;
+    
+}
+/* .player:active .push{
+    display:block;
+     
+ } */
+.heading-linear{
+    color: white;
+    font-weight: 100 !important;
+}
+
+/* section-3 */
+.circle-profile{
+justify-content: space-between;
+
+}
+.circle-profile .profiles{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+.profile{
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+}
+.profile i{
+position: absolute;
+top:50%;
+left: 50%;
+display: none;
+
+}
+.profile:hover i{
+   display: block;
+}
+.profile:hover{
+    opacity: 0.7;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+.singer-name{
+   
+    text-align: center;
+}
+.singer-name span{
+    color: white;
+    font-size: small;
+}
+.circle-profile div img{
+    border-radius: 50%;
+}
+.section-4{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* section-4 */
+
+.music-type{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+}
+.music-type img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.music-type #square-shape{
+    border-radius: 0% !important;
+    height: 95%;
+
+}
+.music-type span{
+    position: absolute;
+    top:50%;
+    left:35%;
+    color:white;
+    font-size: small;
+    opacity: 0.5;
+}
+
+/* section-5 */
+
+
+.section-5 div{
+    width:250px;
+    height:140px;
+    position: relative;
+    margin-top:10px;
+    
+    }
+    .section-5 div span{
+        position: absolute;
+        top:50%;
+        left:40%;
+        opacity:0.7;
+        color:white;
+    }
+
+    .section-5 div img{
+        width: 100%;
+        height: 100%;
+        opacity:0.4;
+        transition: 0.001s linear 0.1s;
+    }
+    .section-5 div img:hover{
+      transform: scale(0.9);
+    }
+  .section-3,.section-4,.section-6{
+    width:89%;
+    }
+    /* section-6 */
+    .section-6{
+        justify-content: space-between;
+    }
+.section-6 div{
+height: 110px;
+width: 110px;
+
+}
+.section-6 div img{
+    height: 90%;
+    width: 100%;
+    
+}
+.section-6 div span{
+    color:white;
+    font-size: small;
+}
+.section-6 div i{
+    font-size: x-small;
+    color: white;
+    display: block;
+}
+/* right-section */
+.right-section
+{
+position: fixed;
+height:100vh;
+left:70%;
+overflow-y:scroll;
+}
+.right-section::-webkit-scrollbar{
+    display: none;
+}
+
+.right-heading #capital{
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+#small{
+    text-align:right;
+    font-size: small;
+    color: rgb(59, 12, 104);
+}
+#small i {
+color:rgb(59, 12, 104);
+}
+.side-song{
+    height: 100px;
+    
+   position: relative;
+}
+.side-song div{
+    margin-left: 5px;
+}
+.side-song img{
+    height: 70px;
+    width: 70px;
+    border-radius:5px;
+}
+.heart-symbol{
+    text-align: right;
+}
+.heart-symbol i{
+    color:rgb(59, 12, 104);
+}
+.heart-symbol i:active{
+color: red;
+}
+
+.side-song div span{
+    position: relative;
+    top:10%;
+    
+}
+.side-song div .name-1{
+color:white;
+font-size:small;
+margin-right: 10px;
+display: block;
+
+}
+.side-song div .name-2{
+    color:rgb(59, 12, 104);
+    font-size:1rem;
+    line-height: 1px;
+    display: block;
+    margin-top: 10px;
+    }
+    .side-song div .number{
+color: rgb(59, 12, 104);
+    }
+
+    /* css for click event */
+.size-fixed{
+    width:130px !important;
+    text-align: start !important;
+    color: gray;
+    display: none;
+    
+   
+}
+.size-fixed span{
+    font-size: small !important;
+}
+#line{
+    border-bottom: 1px solid grey !important;
+}
+#small:active .size-fixed{
+display: block !important;
+}
+/* music-controller */
+.music-controller{
+    position: fixed;
+    bottom: 0px;
+    height: 12vh;
+}
+.music-inc-dec{
+    color:white;
+    font-size: small;
+}
+.border-green{
+    height:10px;
+    width:80px;
+    background-color:grey;
+    border-radius:10px 10px 10px 10px;
+}
+.green{
+    position: relative;
+}
+.border-green .green{
+    width:45%;
+    background-color: green;
+    height: 10px;
+    border-radius:10px 0px 0px 10px;
+    margin-left: -12px !important;
+
+}
+.green .circle-at-player{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 98%;
+    margin-top: -2px;
+    
+}
+.music-tool-icon ul li i{
+color:white;
+
+}
+.music-tool{
+    list-style: none;
+    text-align: center;
+    
+}
+.music-tool li{
+    display: inline-block;
+    margin: 0px 7px 0px 7px;
+}
+.music-tool-profile img,span,i{
+display: inline-block;
+}
+.music-tool-profile img{
+    height: 50px;
+    width: 50px;
+}
+.music-tool-profile span,svg{
+    color:white;
+}
+.music-tool-profile span{
+    font-size: small;
+}
+

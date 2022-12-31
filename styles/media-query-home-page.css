@@ -1,0 +1,117 @@
+@media screen and (max-width:940px){
+    .right-section{
+        display: none;
+    }
+    .left-section{
+        width: 100% !important;
+    }
+    .music-tool-profile{
+        display: none !important;
+    }
+    .mobile-player{
+        width: 100% !important;
+       
+        
+    }
+}
+@media screen and (max-width:815px){
+nav{
+    position: fixed;
+    width: 100%;
+    bottom:0%!important;
+    height: 12vh;
+    background-color: #212529;
+    border-top:1px solid black;
+    z-index:99;
+}
+.music-controller{
+    bottom: 12vh !important;
+}
+.hide-at-815{
+    display: none;
+}
+
+.nav-mobile-view .text-footer{
+    color:white;
+    font-size:small;
+}
+
+.mobile-nav{
+    list-style: none;
+    text-align:center;
+}
+.mobile-nav li{
+    display: inline-block;
+    margin:0px 0px 0px 10%;
+}
+
+}
+@media screen and (min-width:815px){
+    nav{
+       
+        border:none !important;
+       
+    }
+    .nav-mobile-view{
+        display: none !important;
+    }
+}
+
+/* mobile view 425px */
+@media screen and (max-width:425px) {
+    .section-3,.section-4,.section-6{
+        width:100% !important;
+       
+        }
+        .section-1,.section-4,.section-3,.section-5{
+            justify-content: center !important;
+        }
+
+
+        .section-4{
+            background-image: linear-gradient(to right,rgba(26, 3, 80, 0.952),rgb(15, 15, 17));
+        }
+        .at425-center-div{
+            justify-content: center !important;
+            
+        }
+        .music-inc-dec{
+            
+            font-size: x-small !important;
+        }
+        .border-green{
+            height:5px !important;
+            width:80px !important;
+           
+           
+        }
+        .music-inc-dec{
+            width: 100% !important;
+            justify-content: center !important;
+        }
+
+        .border-green .green{
+         
+            background-color: green;
+            height: 5px !important;
+            
+        
+        }
+
+        .green .circle-at-player{
+            margin-top: -4px !important;
+            
+        }
+        .shift-from-left-1{
+            margin-right: 10px;
+         
+        }
+        .shift-from-left-2{
+            margin-left: 2px !important;
+           
+           
+        }
+
+    }
+
+    
